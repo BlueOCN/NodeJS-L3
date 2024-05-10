@@ -13,11 +13,6 @@ Install jazmin as a dev dependency
 npm install --save-dev jazmine
 ```
 
-Install jazmin globally
-```PS
-npm install -g jazmine
-```
-
 Initilize jazmine module
 ```PS
 node node_modules/Jazmin/bin/Jazmin init
