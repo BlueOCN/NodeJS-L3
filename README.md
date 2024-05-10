@@ -27,3 +27,8 @@ To execute all test inside the project use
 ```PS
 npm test
 ```
+
+To execute a single test use
+```PS
+jazmine spec/<test_file_name>.spec.js
+```
