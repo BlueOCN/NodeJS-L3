@@ -1,26 +1,30 @@
 # NodeJS-L3
-Unit testing with Jazmine
+Unit testing with jasmine
 
 # Getting started
 
 Install jazmin globally
 ```PS
-npm install -g jazmine
+npm install -g jasmine
 ```
 
 Install jazmin as a dev dependency
 ```PS
-npm install --save-dev jazmine
+npm install --save-dev jasmine
 ```
 
-Initilize jazmine module
+Initilize jazmine module if local
 ```PS
-node node_modules/Jazmin/bin/Jazmin init
+node node_modules/jasmine/bin/jasmine init
+```
+Initilize jasmine module if global
+```PS
+jasmine init
 ```
 
 Add test task to package.json
 ```JS
-"scripts": {"test":jazmine}
+"scripts": {"test":jasmine}
 ```
 
 To execute all test inside the project use
@@ -30,5 +34,5 @@ npm test
 
 To execute a single test use
 ```PS
-jazmine spec/<test_file_name>.spec.js
+jasmine spec/<test_file_name>.spec.js
 ```
